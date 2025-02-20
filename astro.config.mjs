@@ -16,7 +16,7 @@ export default defineConfig({
 						collapsed: false,
 						label: 'الفهرس'
 					},
-					vault: './vault',
+					vault: './HR-KSA-VAULT',
 				}),
 			],
 			defaultLocale: 'root', // optional
