@@ -1,0 +1,174 @@
+{
+  "main": {
+    "id": "2bb027991808aa78",
+    "type": "split",
+    "children": [
+      {
+        "id": "19cefe45a47587dc",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "286bb102a0e0ea6f",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "4a765760873c7f14",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "34311bf1f39e25fc",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {
+            "sortOrder": "alphabetical",
+            "autoReveal": false
+          },
+          "icon": "lucide-folder-closed",
+          "title": "Files"
+        }
+      },
+      {
+        "id": "038af55e6cf0f3bf",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
+          },
+          "icon": "lucide-search",
+          "title": "Search"
+        }
+      },
+      {
+        "id": "e327bc5b8bfb8286",
+        "type": "leaf",
+        "state": {
+          "type": "tag",
+          "state": {
+            "sortOrder": "frequency",
+            "useHierarchy": true,
+            "showSearch": false,
+            "searchQuery": ""
+          },
+          "icon": "lucide-tags",
+          "title": "Tags"
+        }
+      },
+      {
+        "id": "03e2357b746befb8",
+        "type": "leaf",
+        "state": {
+          "type": "bookmarks",
+          "state": {},
+          "icon": "lucide-bookmark",
+          "title": "Bookmarks"
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "right": {
+    "id": "f1f47f3f4d2aa3fc",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "979a47ea67be955f",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
+          },
+          "icon": "links-coming-in",
+          "title": "Backlinks"
+        }
+      },
+      {
+        "id": "e70e516e51b8498a",
+        "type": "leaf",
+        "state": {
+          "type": "outgoing-link",
+          "state": {
+            "linksCollapsed": false,
+            "unlinkedCollapsed": true
+          },
+          "icon": "links-going-out",
+          "title": "Outgoing links"
+        }
+      },
+      {
+        "id": "cf38c653403e928b",
+        "type": "leaf",
+        "state": {
+          "type": "outline",
+          "state": {
+            "followCursor": false,
+            "showSearch": false,
+            "searchQuery": ""
+          },
+          "icon": "lucide-list",
+          "title": "Outline"
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "obsidian-git:Open Git source control": false
+    }
+  },
+  "active": "286bb102a0e0ea6f",
+  "lastOpenFiles": [
+    "vault",
+    "tsconfig.json",
+    "src/content.config.ts",
+    "src/content/docs/reference/example.md",
+    "src/content/docs/notes/سنابل الفردوس/الصلاة/شروط الصلاة.md",
+    "src/content/docs/index.mdx",
+    "src/content/docs/guides/example.md",
+    "src/content/docs/docs/سنابل الفردوس/الصلاة/شروط الصلاة.md",
+    "src/content/docs/docs/test.md",
+    "src/content/docs/content/سنابل الفردوس/الصلاة/شروط الصلاة.md",
+    "src/content/docs/content/test.md",
+    "src/assets/hr-logo.png",
+    "public/favicon.svg",
+    "package.json",
+    "package-lock.json",
+    "astro.config.mjs",
+    "README.md",
+    "src/content/docs/notes/سنابل الفردوس/الصلاة",
+    "src/content/docs/docs/سنابل الفردوس/الصلاة",
+    "src/content/docs/content/سنابل الفردوس/الصلاة",
+    "src/content/docs/notes/سنابل الفردوس"
+  ]
+}
