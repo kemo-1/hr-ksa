@@ -13,7 +13,7 @@ export default defineConfig({
 				// Generate the Obsidian vault pages.
 				starlightObsidian({
 					autoLinkHeadings: true,
-					copyFrontmatter: 'starlight',
+					copyFrontmatter: 'all',
 					output: 'docs',
 					sidebar: {
 						collapsed: false,
