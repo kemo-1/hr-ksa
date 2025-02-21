@@ -8,6 +8,7 @@ export default defineConfig({
 
 	integrations: [
 		starlight({
+			tableOfContents: { minHeadingLevel: 1, maxHeadingLevel: 6 },
 			plugins: [
 				// Generate the Obsidian vault pages.
 				starlightObsidian({
