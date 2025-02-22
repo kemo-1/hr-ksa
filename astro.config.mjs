@@ -2,17 +2,33 @@
 import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
 import starlightObsidian, { obsidianSidebarGroup } from 'starlight-obsidian'
-
+import remarkCustomHeaderId from "remark-custom-header-id";
+import rehypeAutolinkHeadings from "rehype-autolink-headings";
+import { remarkMark } from "remark-mark-highlight";
+import starlightViewModes from 'starlight-view-modes';
 // https://astro.build/config
 export default defineConfig({
+	markdown: {
+		gfm: false,
+		remarkPlugins: [remarkCustomHeaderId, remarkMark],
+		rehypePlugins: [[rehypeAutolinkHeadings, {
+			// Wrap the heading text in a link.
+			behavior: "wrap",
+			properties: {
+				className: ["section_heading"]
+			}
+		}]],
 
+	},
 	integrations: [
 		starlight({
 			tableOfContents: { minHeadingLevel: 1, maxHeadingLevel: 6 },
 			plugins: [
+
 				// Generate the Obsidian vault pages.
 				starlightObsidian({
-					autoLinkHeadings: true,
+					// tableOfContentsOverview: 'title',
+					autoLinkHeadings: false,
 					copyFrontmatter: 'all',
 					output: 'docs',
 					sidebar: {
@@ -37,6 +53,9 @@ export default defineConfig({
 			sidebar: [
 				obsidianSidebarGroup
 			],
+			customCss: ["./src/styles/custom.css"],
+
+
 		}),
 	],
 });

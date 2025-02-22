@@ -10,9 +10,13 @@
     "astro": "astro"
   },
   "dependencies": {
+    "rehype-autolink-headings": "^7.1.0",
+    "remark-custom-header-id": "file:packages/remark-custom-header-id",
+    "remark-mark-highlight": "^0.1.1",
     "@astrojs/starlight": "^0.32.1",
     "astro": "^5.1.5",
     "sharp": "^0.32.5",
-    "starlight-obsidian": "^0.8.0"
+    "starlight-obsidian": "^0.8.0",
+    "starlight-view-modes": "file:packages/starlight-view-modes"
   }
 }
