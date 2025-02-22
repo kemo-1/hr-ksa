@@ -19,8 +19,18 @@ code {
 	font-size: 1.5rem !important;
 }
 
-a {
+.sl-markdown-content a::after {
+
+	content: '✦';
+	display: inline-block;
+}
+
+.sl-markdown-content a {
 	text-decoration: none;
+
+	&:hover {
+		background-color: var(--sl-color-bg-inline-code);
+	}
 }
 
 main {
