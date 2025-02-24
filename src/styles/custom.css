@@ -19,8 +19,18 @@ code {
 	font-size: 1.5rem !important;
 }
 
-a {
+.sl-markdown-content a::after {
+
+	content: '✦';
+	display: inline-block;
+}
+
+.sl-markdown-content a {
 	text-decoration: none;
+
+	&:hover {
+		background-color: var(--sl-color-bg-inline-code);
+	}
 }
 
 main {
@@ -48,7 +58,7 @@ mark {
 
 .section_heading::before {
 
-	content: '✦ \00a0';
+	content: '✦';
 	display: inline-block;
 
 
@@ -56,7 +66,7 @@ mark {
 
 .section_heading::after {
 
-	content: '\00a0 \00a0 ✦';
+	content: '✦';
 	display: inline-block;
 }
 
